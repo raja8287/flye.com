@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+    
+</head>
+<body>
+    <div id="firstdiv">
+        
+    <h1>fyle</h1>
+    </div>
+
+    <div id="seconddiv">
+        <div id="inputdiv">
+
+            <div>
+                <b>Enter gross annual income <span>?</span></b>
+                <span class="al" id="la1">Gross amount income is your total salary in a year before any deductions</span>
+                <br/>
+                <input placeholder="Enter gross annual income"  id="Gai" oninput={Sub1()} /><span class="sp" id="spn1">!</span>
+                <span class="all" id="lla1">please enter number only</span>
+
+
+            </div>
+
+            <div>
+                <b>Enter Extra Income <span>?</span></b>
+                <span class="al" id="la2">Extra Income other then salary</span>
+
+                <input placeholder="Enter extra income" id="Ei" oninput={Sub2()} /><span class="sp" id="spn2">!</span>
+                <span class="all" id="lla2">please enter number only</span>
+
+            </div>
+
+            <div>
+                <b>Enter age Group <span title="Your Current Age">?</span></b>
+                <span class="al" id="la3">Your Current Age</span>
+
+                <input placeholder="Enter Age" type="number" id="age" oninput={Sub3()}/><span class="sp" id="spn3">!</span>
+                <span class="all" id="lla3">please enter number only</span>
+
+            </div>
+
+            <div>
+                <b>Enter total applicable deductions <span title="total deductions ">?</span></b>
+                <span class="al" id="la4">deductions amount</span>
+
+                <input placeholder="Enter total applicable deductions" id="AD" oninput={Sub4()}/><span class="sp" id="spn4">!</span>
+                <span class="all" id="lla4">please enter number only</span>
+
+            </div>
+        
+   
+        <button onclick={submit()}>Submit</button>
+        </div>
+        <div id="over">
+            <h2>Your Overall Income Will be</h2>
+            
+            <b id="val"></b>
+            <p id="val2">after tax deductions</p>
+            <button onclick={Close()}>Close</button>
+        </div>
+    </div>
+
+ 
+</body>
+</html>

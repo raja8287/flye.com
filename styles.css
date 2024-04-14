@@ -1,0 +1,393 @@
+#firstdiv{
+    background: rgb(153, 38, 236);
+    margin: auto;
+    width: 90%;
+    
+    position: relative;
+}
+#seconddiv{
+    font-family: sans-serif;
+    margin: auto;
+    width: 90%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#inputdiv{
+    margin: auto;
+    position: absolute;
+  width: 40%;
+  height: 60%;
+  margin-left: 25%;
+  margin-top: 2%;
+ padding-top: 10vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0vh;
+    border: 2px solid rgba(128, 128, 128, 0.69);
+
+}
+#inputdiv div{
+    margin: auto;
+    margin-top: 2vh;
+    height: 15%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#inputdiv div input{
+    border:2px solid gray;
+    width: 90%;
+    height: 50%;
+    margin-top: 0.4vh;
+    border-radius: 5px;
+    transition: 0.5s;
+    float: left;
+    
+}
+#inputdiv div input:hover{
+    box-shadow: 0vh 0vh 5vh skyblue;
+    border: 2px solid white;
+}
+
+
+
+#inputdiv div:nth-child(1){
+}
+
+#inputdiv div b{
+    float: left;
+    font-size: 2vh;
+    font-weight: 900;
+}
+#inputdiv div b span{
+    font-size: 1.5vh;
+    font-weight: 100;
+    padding: 0.2vh 0.8vh;
+    border-radius: 100%;
+    border: 1px solid gray;
+}
+#inputdiv div b span:hover{
+    color: blue;
+    cursor: pointer;
+    border: 1px solid blue;
+
+}
+
+
+#inputdiv div:nth-child(1){
+    
+
+}
+#inputdiv div:nth-child(2){
+
+}
+#inputdiv div:nth-child(3){
+
+}
+#inputdiv div:nth-child(4){
+
+}
+
+#inputdiv button{
+    width: 55vh;
+    margin-top: 5vh;
+    height: 5vh;
+    background: rgb(153, 38, 236);
+
+    border: none;
+    border-radius: 1vh;
+    font-weight: 800;
+    color: white;
+    transition: 0.4s;
+}
+
+#inputdiv button:hover{
+    background: rgba(154, 38, 236, 0.733);
+    box-shadow: 0vh 0vh 2vh rgba(154, 38, 236, 0.733);
+    border: 1px solid white;
+    cursor: pointer;
+}
+.sp{
+    display: none;
+    position: absolute;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5vh;
+    font-weight: 800;
+    padding: 0vh 1.2vh;
+    border-radius: 100%;
+    border:none;
+    background: rgba(128, 128, 128, 0.34);
+    color: rgb(255, 115, 0);
+    cursor: pointer;
+    transition: 0.5s;
+    
+
+}
+.sp:hover{
+    background: rgba(128, 128, 128, 0.65);
+    animation: shake 200ms 2;
+}
+@keyframes shake{
+    50% {transform: rotate(-40deg);}
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(40deg);}
+}
+
+#spn1{
+    margin-top: 1.0vh;
+    margin-left: -8vh;
+    
+}
+#spn2{
+    margin-top: 3.8vh;
+    margin-left: 11.7vh;
+}
+#spn3{
+    margin-top: 3.8vh;
+    margin-left: 13.5vh;
+}
+#spn4{
+    margin-top: 3.8vh;
+    margin-left: 4vh;
+}
+
+#over{
+    display: none;
+    position: absolute;
+background: white;
+border: 2px solid rgba(128, 128, 128, 0.55);
+    margin: auto;
+    margin-top: 4%;
+    margin-left: 20%;
+    width: 100vh;
+    height: 30vh;
+    padding: 15vh 5vh;
+}
+#over button{
+    width: 15vh;
+    margin-top: 5vh;
+    height: 5vh;
+    background: rgb(153, 38, 236);
+
+    border: none;
+    border-radius: 1vh;
+    font-weight: 800;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+#over button:hover{
+    background: rgba(154, 38, 236, 0.733);
+    box-shadow: 0vh 0vh 2vh rgba(154, 38, 236, 0.733);
+    border:none;
+    cursor: pointer;
+
+}
+.al{
+    display: none;
+    position: absolute;
+    padding: 1vh 1vh;
+    border-end-end-radius:3vh;
+    border-top-left-radius: 3vh;
+    border-top-right-radius: 3vh;
+    width: 12vh;
+    font-size: 1.3vh;
+    background: rgba(0, 0, 0, 0.651);
+    color: white;
+    font-family: sans-serif;
+transition: 2s;
+}
+#la1{
+
+    margin-left: -19vh;
+    margin-top: -8vh;
+}
+#la2{
+    margin-left: -23vh;
+    margin-top: -3vh;
+    width: 18vh;
+
+}
+#la3{
+    margin-left: -25vh;
+    margin-top: -3vh;
+
+}
+#la4{
+    margin-left: -16vh;
+    margin-top: -3vh;
+
+}
+.all{
+    display: none;
+    position: absolute;
+    padding: 1vh 2vh;
+    font-weight: 600;
+    border-end-end-radius:3vh;
+    border-top-left-radius: 3vh;
+    border-top-right-radius: 3vh;
+    width: 15vh;
+    font-size: 1.3vh;
+font-family: sans-serif;
+background: rgba(0, 0, 0, 0.651);
+color: white;
+}
+#lla1{
+    margin-left:-5vh;
+    margin-top: -3vh;
+}
+
+#lla2{
+    margin-left:14vh;
+    margin-top: -0.5vh;
+}
+
+#lla3{
+    margin-left:16vh;
+    margin-top: -0.7vh;
+}
+
+#lla4{
+    margin-left:6.5vh;
+    margin-top: -0.5vh;
+}
+@media only screen and (max-width: 1000px) {
+
+
+    #firstdiv{
+        background:rgb(140, 64, 222);
+        width: 80%;
+        padding-left: 4vh;
+    }
+    #firstdiv{
+        font-size: 2vh;
+        color: white;
+    }
+
+    #seconddiv{
+        width: 100%;
+    }
+    #inputdiv{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 2.5%;
+        margin-top: 10%;
+        width: 90%;
+    }
+
+    #inputdiv div{
+        width: 90%;
+    }
+
+    #inputdiv div b{
+        font-size: 1.5vh;
+
+    }
+    #inputdiv div input{
+        width: 90%;
+        height: 3vh;
+    }
+
+    #seconddiv button{
+        width: 10vh;
+        font-size: 1.5vh;
+
+    }
+
+    .al{
+        
+    }
+    #la1{
+        margin: auto;
+        margin-left:-70%;
+        margin-top:-20%;
+        
+        font-size: 1.2vh;
+    }
+    #la2{
+    
+        margin: auto;
+        margin-left:-60%;
+        margin-top:-10%;
+        font-size: 1.2vh;
+    }
+    #la3{
+        
+        margin: auto;
+        margin-left:-60%;
+        margin-top:-10%;
+        font-size: 1.2vh;
+    }
+    #la4{
+        
+        margin: auto;
+        margin-left:-80%;
+        margin-top:-8%;
+        font-size: 1.2vh;
+    }
+
+    .sp{
+    width: 1vh;
+    height: 3vh;
+    font-size: 1.5vh;
+
+    }
+    #spn1{
+        margin: auto;
+        margin-left:-12%;
+        margin-top: 2%;
+    }
+    #spn2{
+        margin: auto;
+        margin-left:6%;
+        margin-top: 6.5%;
+        }
+
+        #spn3{
+            margin: auto;
+            margin-left:9%;
+        margin-top: 7%;
+            }
+            
+    #spn4{
+        margin: auto;
+        margin-left:-8%;
+        margin-top: 7%;
+        }
+    .all{
+        font-size: 1.2vh;
+        width: 5vh;
+
+
+    }
+    #lla1{
+        margin-left: -15%;
+        margin-top:-20%;
+    }
+    
+    #lla2{
+        margin-left: -0%;
+        margin-top:-20%;
+    }
+    
+    #lla3{
+        margin-left: 0%;
+        margin-top:-20%;
+    }
+    
+    #lla4{
+        margin-left: -15%;
+        margin-top:-20%;
+    }
+}
