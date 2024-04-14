@@ -10,7 +10,7 @@ if(Gai && Ei && age && AD){
 
 if(Gai<=800000){
   //  alert("no tax");
-    over.display='block';
+    over.display='inline-block';
     document.getElementById('val').innerHTML="no tax";
     document.getElementById('val2').innerHTML=" ";
 
