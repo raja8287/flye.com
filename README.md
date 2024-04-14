@@ -20,3 +20,8 @@ open the Vs code and download Live sever extension
 and run it.
 ## Usage
 tax calculation.
+
+##Contact
+E-mail:rdas828726@gmail.com
+Phone:8700826036
+Project Link:-https://statuesque-chebakia-8dfc3d.netlify.app/
