@@ -390,4 +390,18 @@ color: white;
         margin-left: -15%;
         margin-top:-20%;
     }
+    #over{
+        display: inline-block;
+        margin: auto;
+        margin-left:-49%;
+        margin-top: 20%;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        height: 20%;
+        padding-top:40%;
+        padding-bottom:50%;
+
+
+    }
 }
